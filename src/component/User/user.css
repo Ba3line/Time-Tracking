@@ -1,0 +1,70 @@
+.cardUser {
+    display: block;
+    background-color: #1d204b;
+    width: 15vw;
+    height: 64vh;
+    border-radius: 20px;
+}
+
+.topCard {
+    background-color: #5846e9;
+    height: 70%;
+    border-radius:20px;
+}
+
+.imageUser {
+    width: 100px;
+    border: solid 3px white;
+    border-radius: 50px;
+    margin: 40px 0 0 20px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.imageUser:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.titleTopCard {
+    color: white;
+    margin: 30px 0 0 30px;
+}
+
+.nameCard {
+    color: white;
+    font-size: 50px;
+    margin: 5px 0 0 25px;
+}
+
+.daily {
+    color: white;
+    margin: 25px 0 0 25px;
+    cursor: pointer;
+}
+
+.daily:hover {
+    color: #5846e9;
+}
+
+.weekly {
+    color: white;
+    margin: 25px 0 0 25px;
+    cursor: pointer;
+}
+
+.weekly:hover {
+    color: #5846e9;
+}
+
+.monthly {
+    color: white;
+    margin: 25px 0 0 25px;
+    cursor: pointer;
+}
+
+.monthly:hover {
+    color: #5846e9;
+}

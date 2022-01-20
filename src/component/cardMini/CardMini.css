@@ -1,0 +1,130 @@
+:root {
+    --Blue: hsl(246, 80%, 60%);
+    --Light: hsl(15, 100%, 70%);
+    --SoftBlue: hsl(195, 74%, 62%);
+    --LightRed: hsl(348, 100%, 68%);
+    --LimeGreen: hsl(145, 58%, 55%);
+    --Violet: hsl(264, 64%, 52%);
+    --SoftOrange: hsl(43, 84%, 65%);
+    --VeryDarkBlue: hsl(226, 43%, 10%);
+    --DarkBlue: hsl(235, 46%, 20%);
+    --DesaturatedBlue: hsl(235, 45%, 61%);
+    --PaleBlue: hsl(236, 100%, 87%);
+}
+
+.cardWork {
+    background-color: #fe8b63;
+    border-radius: 20px;
+    width: 15vw;
+    height: 25vh;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    margin: 0 15px 55px 15px;
+}
+
+.cardPlay {
+    background-color: red;
+    border-radius: 20px;
+    width: 15vw;
+    height: 25vh;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    margin: 0 15px 10px 15px;
+}
+
+.cardWork:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+svg {
+    margin-left: 130px;
+}
+
+.botCard {
+    background-color: #1d204b;
+    border-radius: 20px;
+    height: 100%;
+    transform: translateY(-45px);
+}
+
+.botCard:hover {
+    background-color: #34397b;
+}
+
+.botCard:hover .nbrHeuresWork {
+    color: var(--Light);
+}
+
+.botCard:hover .nbrHeuresExercices {
+    color: var(--LimeGreen);
+}
+
+.botCard:hover .nbrHeuresPlay {
+    color: var(--SoftBlue);
+}
+
+.botCard:hover .nbrHeuresSocial {
+    color: var(--Violet);
+}
+
+.botCard:hover .nbrHeuresStudy {
+    color: var(--LightRed);
+}
+
+.botCard:hover .nbrHeuresSelf {
+    color: var(--SoftOrange);
+}
+
+.ligne1Work {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.textWork {
+    padding: 35px 100px 0 20px;
+}
+
+.pointsWork {
+    font-size: 50px;
+}
+
+.ligneWork {
+    margin-left: 30px;
+    color: white;
+}
+
+.nbrHeuresWork1 {
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.bg-light {
+    background-color: var(--Light);
+}
+
+.bg-softBlue {
+    background-color: var(--SoftBlue);
+}
+
+.bg-lightRed {
+    background-color: var(--LightRed);
+}
+
+.bg-limeGreen {
+    background-color: var(--LimeGreen);
+}
+
+.bg-violet {
+    background-color: var(--Violet);
+}
+
+.bg-softOrange {
+    background-color: var(--SoftOrange);
+}
